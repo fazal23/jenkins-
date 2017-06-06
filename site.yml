@@ -2,10 +2,9 @@
 - hosts: localhost
   sudo: yes
   vars:
-   jenkins_hostname: jenkins.example.com
+    jenkins_hostname: localhost
   roles:
    - java
-  #- geerlingguy.java
-   - geerlingguy.jenkins
-   # - ohtomi.jenkins2
+   - jenkins
+   
 
