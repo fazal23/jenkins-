@@ -1,0 +1,19 @@
+---
+  
+  #- sudo docker pull tomcat
+  
+  #- sudo docker run -it --rm -p 8888:8080 tomcat:8.0 
+  - name: pull an image
+     docker_image: >
+       name: tomcat
+       tag: v8.0
+       path: /tmp/site
+       state: present
+ # - name: run the site in a docker container
+  #    docker:
+   #     name: site1
+    #    image: "tomcat:v8.0"
+     #   state: reloaded
+      #  publish_all_ports: yes
+  #- sudo docker run -it --rm -p 8888:8080 tomcat:8.0
+   

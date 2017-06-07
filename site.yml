@@ -4,7 +4,8 @@
   vars:
     jenkins_hostname: localhost
   roles:
-   - java
-   - jenkins
+   - doc
+   #- java
+   #- jenkins
    
 
