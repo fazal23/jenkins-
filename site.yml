@@ -4,8 +4,8 @@
   vars:
     jenkins_hostname: localhost
   roles:
-   - doc
-   - java
-   - jenkins
-   
+   #- doc
+   #- java
+   #- jenkins
+   - wtanaka.gnucash
 
