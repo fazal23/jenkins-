@@ -5,7 +5,7 @@
     jenkins_hostname: localhost
   roles:
    - doc
-   #- java
-   #- jenkins
+   - java
+   - jenkins
    
 
